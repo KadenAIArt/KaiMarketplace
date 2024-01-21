@@ -1,0 +1,38 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        font-size: 2.0325rem;
+    }
+    h2 {
+        font-size: 1.626rem;
+    }
+
+    h3 {
+        font-size: 1.42275rem;
+    }
+    h4 {
+        font-size: 1.2195rem;
+    }
+    h5 {
+        font-size: 1.01625rem;
+    }
+    h6 {
+        font-size: 0.813rem;
+    }
+}
+
+:root,
+#root,
+#docs-root {
+    --primary: #367ee9;
+    --secondary: #a0aec0;
+    --accent: #718096;
+    --background: #fff;
+    --main: #0d0106;
+    --header: #2d3748;
+}

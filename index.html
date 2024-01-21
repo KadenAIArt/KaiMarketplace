@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="https://test.zethra.io/images/kadenai_v.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4800F9">
+    <meta name="msapplication-TileColor" content="#4800F9">
+    <meta name="title" content="Kadenai - Marketplace">
+    <meta name="description" content="Buy, Sell, Create Marmalade V2 NFTs on Kadena">
+    <meta itemprop="name" content="Kadenai - Marketplace">
+    <meta itemprop="description" content="Buy, Sell, Create Marmalade V2 NFTs on Kadena.">
+    <meta itemprop="image" content="https://test.zethra.io/images/kadenai_v.png">
+    <meta property="og:site_name" content="Kadenai - Marketplace">
+    <meta property="og:url" content="https://market.kadenai.com">
+    <meta property="og:type" content="webapp">
+    <meta property="og:title" content="Kadenai - Marketplace">
+    <meta property="og:description" content="Buy, Sell, Create Marmalade V2 NFTs on Kadena">
+    <meta property="og:image" content="https://test.zethra.io/images/kadenai_v.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kadenai - Marketplace">
+    <meta name="twitter:description" content="Buy, Sell, Create Marmalade V2 NFTs on Kadena">
+    <meta name="twitter:image" content="https://test.zethra.io/images/kadenai_v.png">
+    <style>
+
+
+        .loader_logo {
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            left: calc(50% - 50px);
+            top: 38%;
+        }
+
+        .loader_logo img {
+            height: 100%;
+            width: 100%;
+        }
+
+        @keyframes loader {
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes loader {
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        html,body{
+            background-color: #fff !important;
+        }
+
+        .loader-wrapper {
+            background: linear-gradient(126deg, #2c0195 7%, #4c0151 51%, #3401b2 100%);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            right:0;
+            overflow: hidden;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .centered {
+            position: absolute !important;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+    </style>
+
+    <title>Kadenai</title>
+</head>
+<body>
+<!-- built files will be auto injected -->
+<div class="loader-wrapper background" id="loading_wrap">
+    <div class="centered">
+        <img class="centered" width="150px" src="/images/kadenai_main_gradient.svg"/>
+    </div>
+
+</div>
+
+<div id="app"></div>
+<script type="module" src="/src/main.js"></script>
+</body>
+</html>
